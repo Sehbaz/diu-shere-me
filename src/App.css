@@ -5,3 +5,10 @@
 body {
   text-align: center;
 }
+.App-logo {
+  width: 100px;
+  padding-top: 10%;
+}
+.App-heading {
+  margin: 2rem;
+}
