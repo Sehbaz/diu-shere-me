@@ -5,20 +5,33 @@ import img3 from "../images/img-3.jpg";
 import img4 from "../images/img-4.jpg";
 import img5 from "../images/img-5.jpg";
 import img6 from "../images/img-6.jpg";
+import ImageContentHover from "react-image-hover";
 import "./Gallery.css";
+
 function Gallery() {
   return (
     <div>
       <div className="row">
         <div className="column">
           <div className="img-container">
-            <img src={img1} style={{ width: "100%" }} className="image"></img>
+            <img src={img6} style={{ width: "100%" }} className="image"></img>
             <div className="overlay">
               <div className="text">John Doe</div>
             </div>
           </div>
 
           <img src={img2} style={{ width: "100%" }}></img>
+          <ImageContentHover
+            className="image-cover image"
+            tileWidth="200px"
+            tileHeight="200px"
+            image="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/example-image.jpg"
+            content={{
+              title: "Image Title",
+              body: "Image content viewer"
+            }}
+            effect="fadeIn"
+          />
         </div>
         <div className="column">
           <img src={img3} style={{ width: "100%" }}></img>
