@@ -36,6 +36,25 @@ function Gallery() {
         </div>
         <div className="column">
           <div className="container">
+            <img src={prewedding} alt="PreWedding" className="image"></img>
+            <div className="overlay">
+              <div className="text">
+                <p>Pre-Wedding Shoot</p>
+              </div>
+            </div>
+          </div>
+          <div className="container">
+            <img src={hotel} alt="HotelBooking"></img>
+            <div className="overlay">
+              <div className="text">
+                {" "}
+                <p>Hotel Booking</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="column">
+          <div className="container">
             <img src={wedding} alt="Wedding" className="image"></img>
             <div className="overlay">
               <div className="text">
@@ -43,6 +62,7 @@ function Gallery() {
               </div>
             </div>
           </div>
+
           <div className="container">
             <img src={fashion} alt="Fashion"></img>
             <div className="overlay">
@@ -58,25 +78,6 @@ function Gallery() {
               <div className="text">
                 {" "}
                 <p>Documentery</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="column">
-          <div className="container">
-            <img src={prewedding} alt="PreWedding" className="image"></img>
-            <div className="overlay">
-              <div className="text">
-                <p>Pre-Wedding Shoot</p>
-              </div>
-            </div>
-          </div>
-          <div className="container">
-            <img src={hotel} alt="HotelBooking"></img>
-            <div className="overlay">
-              <div className="text">
-                {" "}
-                <p>Hotel Booking</p>
               </div>
             </div>
           </div>
