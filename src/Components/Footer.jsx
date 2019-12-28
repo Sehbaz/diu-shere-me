@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import "../App.css";
 function Footer() {
   return (
     <div className="main-container">
@@ -24,7 +25,21 @@ function Footer() {
           Contact us to discuss more about your photo & video requirements, We
           would love to hear from you. Give us a call.
         </p>
+        <div className="social">
+          {" "}
+          <a href="https://www.instagram.com/diuseherme/">Instagram</a>
+          <a href="https://www.facebook.com/diuseherme/">FaceBook</a>
+        </div>
         <button class="button button1">0123456789</button>
+      </div>
+      <div className="copyright">
+        <p>Copyright © 2020. All rights reserved.</p>
+        <p className="social">
+          Developed by{" "}
+          <a href="https://www.sehbaz.com/" className="social">
+            Sehbaz Rafik
+          </a>
+        </p>
       </div>
     </div>
   );

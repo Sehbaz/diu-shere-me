@@ -124,6 +124,11 @@ function App() {
         <h3 style={{ color: "#192a56" }}>
           Diu is flashes of colour against the desert sand
         </h3>
+        <div className="social">
+          {" "}
+          <a href="https://www.instagram.com/diuseherme/">Instagram</a>
+          <a href="https://www.facebook.com/diuseherme/">FaceBook</a>
+        </div>
       </header>
       <Gallery />
       <Footer />
