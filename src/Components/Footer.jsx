@@ -3,7 +3,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="main-container">
-      <h1> About us</h1>
+      <h1 className="Footer-heading"> About us</h1>
       <p>
         Diu town sits at the eastern end of the island. The northern side of the
         island, facing Gujarat, is tidal marsh and salt pans, while the southern

@@ -1,19 +1,20 @@
 import React from "react";
 import "./App.css";
+import logo from "./images/icon.png";
 import Gallery from "./Components/Gallery";
 import Footer from "./Components/Footer";
 import Particles from "react-particles-js";
 const particleOptions = {
   particles: {
     number: {
-      value: 80,
+      value: 30,
       density: {
         enable: true,
         value_area: 800
       }
     },
     color: {
-      value: "#192a56"
+      value: "#000"
     },
     shape: {
       type: "circle",
@@ -118,7 +119,11 @@ function App() {
     <div>
       <Particles params={particleOptions} className="particles"></Particles>
       <header className="App-header">
+        <img src={logo} className="main-logo"></img>
         <h1 className="App-heading">DiuSeherMe</h1>
+        <h3 style={{ color: "#192a56" }}>
+          Diu is flashes of colour against the desert sand
+        </h3>
       </header>
       <Gallery />
       <Footer />

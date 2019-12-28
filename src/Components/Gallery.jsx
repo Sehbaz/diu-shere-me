@@ -11,6 +11,7 @@ import "./Gallery.css";
 function Gallery() {
   return (
     <div className="image-container">
+      <h1 className="gallery-heading">Our Services</h1>
       <div className="row">
         <div className="column">
           <div className="container">
@@ -38,7 +39,7 @@ function Gallery() {
             <img src={wedding} alt="Wedding" className="image"></img>
             <div className="overlay">
               <div className="text">
-                <p>Wedding</p>
+                <p>Wedding Shoot</p>
               </div>
             </div>
           </div>
@@ -47,7 +48,7 @@ function Gallery() {
             <div className="overlay">
               <div className="text">
                 {" "}
-                <p>Fashion</p>
+                <p>Fashion Shoot</p>
               </div>
             </div>
           </div>
@@ -66,7 +67,7 @@ function Gallery() {
             <img src={prewedding} alt="PreWedding" className="image"></img>
             <div className="overlay">
               <div className="text">
-                <p>PreWedding</p>
+                <p>Pre-Wedding Shoot</p>
               </div>
             </div>
           </div>
