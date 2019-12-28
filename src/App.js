@@ -119,7 +119,7 @@ function App() {
     <div>
       <Particles params={particleOptions} className="particles"></Particles>
       <header className="App-header">
-        <img src={logo} className="main-logo"></img>
+        <img src={logo} className="main-logo" alt="logo"></img>
         <h1 className="App-heading">DiuSeherMe</h1>
         <h3 style={{ color: "#192a56" }}>
           Diu is flashes of colour against the desert sand
