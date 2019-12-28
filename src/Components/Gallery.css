@@ -25,7 +25,7 @@
   border-radius: 8px;
   -webkit-box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 11px 0px rgba(30, 39, 46, 1);
 }
 /* for onHover animation */
 .container {
