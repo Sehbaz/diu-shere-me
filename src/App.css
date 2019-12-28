@@ -5,10 +5,17 @@
 body {
   text-align: center;
 }
-.App-logo {
-  width: 100px;
-  padding-top: 10%;
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
 }
-.App-heading {
-  margin: 2rem;
+.App-header {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
