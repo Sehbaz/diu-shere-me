@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Gallery from "./Components/Gallery";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <h1 className="App-heading">DiuSeherMe</h1>
       </header>
       <Gallery />
+      <Footer />
     </div>
   );
 }
